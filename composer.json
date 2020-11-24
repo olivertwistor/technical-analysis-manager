@@ -1,9 +1,31 @@
 {
   "name": "olivertwistor/technical-analysis-manager",
-  "type": "project",
   "description": "Helps keep track of things when doing technical analysis.",
+  "version": "0.1.0",
+  "type": "project",
+  "keywords": ["technical-analysis"],
   "homepage": "https://github.com/olivertwistor/technical-analysis-manager",
+  "readme": "LICENSE",
+  "time": "2020-11-24",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan Nilsson",
+      "email": "oliver_twistor@hotmail.com",
+      "homepage": "http://www.olivertwistor.nu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "oliver_twistor@hotmail.com",
+    "issues": "https://github.com/olivertwistor/technical-analysis-manager/issues",
+    "source": "https://github.com/olivertwistor/technical-analysis-manager",
+    "docs": ""
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-sqlite3": "*"
+  },
   "autoload": {
     "psr-4": {
       "Olivertwistor\\TAManager\\": "src/"
@@ -11,12 +33,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Olivertwistor\\TAManager\\": "tests/"
+      "Olivertwistor\\TAManager\\Tests\\": "tests/"
     }
-  },
-  "bin": [],
-
-  "require": {
-    "php": ">=5.6"
   }
 }
