@@ -1,0 +1,22 @@
+{
+  "name": "olivertwistor/technical-analysis-manager",
+  "type": "project",
+  "description": "Helps keep track of things when doing technical analysis.",
+  "homepage": "https://github.com/olivertwistor/technical-analysis-manager",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Olivertwistor\\TAManager\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Olivertwistor\\TAManager\\": "tests/"
+    }
+  },
+  "bin": [],
+
+  "require": {
+    "php": ">=5.6"
+  }
+}
